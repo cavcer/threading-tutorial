@@ -15,7 +15,7 @@ def battery():
 def is_gps():
     print("gps statu is been taking for 5 second")
     time.sleep(5)
-    gps = random.choices([True,False])
+    gps = random.choice([True,False])
     print(f"gps={gps}")
     return gps
 
@@ -29,7 +29,7 @@ def temperature():
 def is_camera():
     print("camera statu is been taking for 1 second")
     time.sleep(1)
-    camera = random.choices(["opened","closed"])
+    camera = random.choice(["opened","closed"])
     print(camera)
     return camera
 
